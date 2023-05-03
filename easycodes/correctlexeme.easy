@@ -1,0 +1,24 @@
+/* This is a comment */
+procedure my_procedure {
+    if (true) {
+        output "Hello, world!";
+    } else {
+        output "Goodbye, world!";
+    }
+    repeat {
+        input x;
+        if (x > 0) {
+            output "Positive";
+        } else {
+            output "Non-positive";
+        }
+    } until (x == 0);
+}
+
+for (i = 0; i < 10; i = i + 1) {
+    if (i % 2 == 0) {
+        output i " is even";
+    } else {
+        output i " is odd";
+    }
+}

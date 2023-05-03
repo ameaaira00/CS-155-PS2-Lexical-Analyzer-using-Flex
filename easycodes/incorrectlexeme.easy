@@ -1,0 +1,16 @@
+if x = 5 and y == 3 { //will identify = as assignment symbol but this is is incorrect syntaxwise
+    z = x + y
+} else {
+    z = x - y
+}
+print("The value of z is: ", z) // Double quotation mark will be considered as UNKNOWN token since we only considered ' 
+
+// Brackets {} are not considered thus they will be considered as UNKNOWN token
+while i < 10 {
+    i += 1
+    println(i) //println will be considered as IDENTIFIER since it is not included in given EASY language
+}
+
+for j = 1 to 5 {
+    println(j) //println will be considered as IDENTIFIER since it is not included in given EASY language
+}
